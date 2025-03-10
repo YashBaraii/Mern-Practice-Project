@@ -34,7 +34,7 @@ const HomePage = () => {
           w={'full'}
         >
           {products.map((product) => (
-            <ProductCard key={product._id} products={product} />
+            <ProductCard key={product._id} product={product} />
           ))}
         </SimpleGrid>
 
